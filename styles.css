@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    color: #f3f3f3;
+    font-family: sans-serif;
+  }
+  
+  div{
+    background-color: #1b1b3fef;
+    width: 90%;
+    max-width: 700px;
+    min-width: 500px;
+    margin: 10px auto 0px;
+    box-shadow: -5px 5px 50px  black;
+  
+  }
+  
+  hr{
+    max-width:90%;
+    height: 3px;
+    background: linear-gradient(90deg,purple,hsl(240,50%,50%));
+    border: 0;
+  }
+  
+  fieldset {
+    border: 0;
+    margin-left: 5%
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  #title{
+    font-size: 3em;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  
+  #description {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  label, input{
+    display: block;
+    font-size: 1.1em;
+  }
+  
+  .info {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+  
+  input[type="radio"], input[type="checkbox"]{
+    display: inline;
+  }
+  
+  input[type="radio"] {
+    vertical-align: baseline;
+  }
+  
+  input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 15px;
+  }
+  
+  select {
+    width: 80%;
+    font-size: 1.2em;
+  }
+  
+  textarea {
+    font-size: 1.1em;
+    width: 80%;
+    margin-right: 20%;
+  }
+  
+  #terms-and-conditions {
+    margin: 5%;
+  }
+  
+  a {
+    color: white;
+    font-size: 1.1em;
+  }
+  
+  button[type="submit"] {
+    min-width:40%;
+    color: #f3f3f3;
+    background-color: #1b1b3f;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px 0 10px 30%;
+    font-size: 1.2em;
+  }
+  
+  button:hover {
+    color: #1b1b3f;
+    background-color: #f3f3f3;
+  }
+  
+  
